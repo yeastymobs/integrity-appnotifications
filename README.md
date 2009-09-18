@@ -1,12 +1,12 @@
 Integrity
 =========
 
-[Integrity][] is your friendly automated Continuous Integration server.
+[Integrity](http://integrityapp.com) is your friendly automated Continuous Integration server.
 
 Integrity AppNotifications Notifier
 ===========================
 
-This lets Integrity send a push notification (via [AppNotifications][http://appnotifications.com]) after each build is made.
+This lets Integrity send an iPhone push notification (via [AppNotifications](http://appnotifications.com)) after each build is made.
 
 Setup Instructions
 ==================
