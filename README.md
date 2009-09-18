@@ -6,7 +6,7 @@ Integrity
 Integrity AppNotifications Notifier
 ===========================
 
-This lets Integrity send a push notification after each build is made.
+This lets Integrity send a push notification (via [AppNotifications][http://appnotifications.com]) after each build is made.
 
 Setup Instructions
 ==================
