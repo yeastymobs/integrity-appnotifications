@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "VERSION",
+     "integrity-appnotifications.gemspec",
      "lib/integrity/notifier/appnotifications.rb",
      "lib/integrity/notifier/config.haml"
   ]
