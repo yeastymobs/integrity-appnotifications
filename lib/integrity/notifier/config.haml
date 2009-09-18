@@ -1,0 +1,27 @@
+%p.normal
+  %label{ :for => "appnotifications_notifier_tokens" } Tokens (one per line)
+  %textarea#appnotifications_notifier_tokens{ :name => "notifiers[Appnotifications][tokens]", :cols => 40, :rows => 10 }= config["tokens"]
+
+%p.normal
+  %label{ :for => "appnotifications_notifier_fail_sound" } Fail sound
+  %select#appnotifications_notifier_fail_sound{ :name => "notifiers[Appnotifications][fail_sound]" }
+    - selected = Proc.new { |s| config["fail_sound"] == s ? "selected" : nil }
+    %option{ :selected => selected.call("1.caf") } 1.caf
+    %option{ :selected => selected.call("2.caf") } 2.caf
+    %option{ :selected => selected.call("3.caf") } 3.caf
+    %option{ :selected => selected.call("4.caf") } 4.caf
+    %option{ :selected => selected.call("5.caf") } 5.caf
+    %option{ :selected => selected.call("6.caf") } 6.caf
+    %option{ :selected => selected.call("7.caf") } 7.caf
+
+%p.normal
+  %label{ :for => "appnotifications_notifier_success_sound" } Success sound
+  %select#appnotifications_notifier_success_sound{ :name => "notifiers[Appnotifications][success_sound]" }
+    - selected = Proc.new { |s| config["success_sound"] == s ? "selected" : nil }
+    %option{ :selected => selected.call("1.caf") } 1.caf
+    %option{ :selected => selected.call("2.caf") } 2.caf
+    %option{ :selected => selected.call("3.caf") } 3.caf
+    %option{ :selected => selected.call("4.caf") } 4.caf
+    %option{ :selected => selected.call("5.caf") } 5.caf
+    %option{ :selected => selected.call("6.caf") } 6.caf
+    %option{ :selected => selected.call("7.caf") } 7.caf
